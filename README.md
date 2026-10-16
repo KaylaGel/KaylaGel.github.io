@@ -6,7 +6,7 @@ A responsive, accessible static portfolio for GitHub Pages. No build tools or in
 
 Edit `index.html` to update your bio, projects, experience, and profile links. The current content reflects the details Kayla supplied. Decorative illustrations use CSS rather than project screenshots.
 
-Change colours in the `:root` variables at the top of `styles.css`. Fonts load from Google Fonts with system fallbacks. There are no runtime JavaScript dependencies.
+Change colours in the `:root` variables at the top of `desktop.css`. Fonts load from Google Fonts with system fallbacks. The desktop interface uses a small standalone `desktop.js` script; there are no package dependencies.
 
 ## Preview locally
 
@@ -23,4 +23,4 @@ A repository called `KaylaGel.github.io` publishes at `https://KaylaGel.github.i
 
 If your default branch has a different name, update `branches: [main]` in `.github/workflows/pages.yml`.
 
-Only `index.html`, `styles.css`, and `.nojekyll` are included in the published artifact. If you add images or a CV, copy those files in the workflow's “Prepare website files” step too. Everything published through this site is public.
+Only `index.html`, `styles.css`, `desktop.css`, `desktop.js`, and `.nojekyll` are included in the published artifact. If you add images or a CV, copy those files in the workflow's “Prepare website files” step too. Everything published through this site is public.
